@@ -17,8 +17,10 @@
     * Outputting something like `Sorry I don't handle DM commands` for all does NOT count, however it is allowed to restrict some commands to guild channels only
  - Handle multiple spaces and/or newlines between arguments and between the prefix and the command
  - Accept `@mention`, `User#Discriminator` and the user id as a valid form of user targetting
- - 
+ - Have case-insensetive commands
+ -
 #### Your bot should not:
 - Respond to bots
 - Request permissions that are not required to execute command (administrator)
+- Allow users to abuse mass mentions (@everyone, @here) unless user has corresponding permission
 -
