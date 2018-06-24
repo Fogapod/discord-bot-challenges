@@ -3,7 +3,7 @@
 # stop making shitty discord bots!
 
 ### There are so many shitty discord bots out there wasting resources that could be spared for discord users waiting for their messages to be sent...
-### This document should help identify if a discord bot is a shitty bot or not (at last to some degree)
+### This document should help identify if a discord bot is a shitty bot or not (at last to some degree), this list does NOT (or not all points on it) apply to specialized bots like automod bots (for example DM handling would be useless for it)
 
 ### The test list, your bot should:
  - Have a `info`command
@@ -16,3 +16,5 @@
  - It should handle DM commands without any prefixes
     * Outputting something like `Sorry I don't handle DM commands` does NOT count!
  - It should handle multiple spaces between arguments and between the prefix and the command
+ - Accept `@mention`, `User#Discriminator` and the user id as a valid form of user targetting
+ - 
