@@ -14,7 +14,7 @@
    * Also if an edit changes to a bot call, it should handle it like a new message
  - Should handle message deletes (the bot should delete it's answer then)
  - It should handle DM commands without any prefixes
-    * Outputting something like `Sorry I don't handle DM commands` does NOT count!
+    * Outputting something like `Sorry I don't handle DM commands` for all does NOT count, however it is allowed to restrict some commands to guild channels only
  - It should handle multiple spaces between arguments and between the prefix and the command
  - Accept `@mention`, `User#Discriminator` and the user id as a valid form of user targetting
  - 
