@@ -6,7 +6,7 @@
 ### This document should help identify if a discord bot is a shitty bot or not (at last to some degree), this list does NOT (or not all points on it) apply to specialized bots like automod bots (for example DM handling would be useless for it). It is intended to target all those "meme" or "utility" bots out there.
 
 ### The test list, your bot should:
- - Have a `info`command
+ - Have a `info`/`about` command
  - Have a `help` command
  - Have a @mention prefix (`@mention help` for example)
  - Handle message edits (either the bot should edit it's answer or delete the previous answer to send a new answer)
