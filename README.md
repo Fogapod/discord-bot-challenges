@@ -20,7 +20,7 @@
  - Have case-insensetive commands
  -
 #### Your bot should not:
-- Respond to bots
+- Respond to bots (at all. Even with error message)
 - Request permissions that are not required to execute command (administrator)
 - Allow users to abuse mass mentions (@everyone, @here) unless user has corresponding permission
 -
