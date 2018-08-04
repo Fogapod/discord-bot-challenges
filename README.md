@@ -6,7 +6,7 @@
 ### This document should help identify if a discord bot is a shitty bot or not (at least to some degree), this list does NOT (or not all points on it) apply to specialized bots like automod bots (for example DM handling would be useless for it). It is intended to target all those "meme" or "utility" bots out there.
 
 ### The test list, your bot should:
- - Have a `info`/`about` command
+ - Have an `info`/`about` command
  - Have a `help` command
  - Have a @mention prefix (`@mention help` for example)
  - Handle message edits (either the bot should edit it's answer or delete the previous answer to send a new answer)
@@ -23,4 +23,6 @@
 - Respond to bots (at all. Even with error message)
 - Request permissions that are not required to execute command (administrator)
 - Allow users to abuse mass mentions (@everyone, @here) unless user has corresponding permission
+- Let people abuse bot powers (kick/ban people whom they won't be able to kick/ban otherwise, access hidden channels)
+- Post nsfw content as a response to sfw request (channels marked as nsfw are an exception)
 -
