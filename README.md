@@ -18,11 +18,9 @@
  - Handle multiple spaces and/or newlines between arguments and between the prefix and the command
  - Accept `@mention`, `User#Discriminator` and the user id as a valid form of user targetting
  - Have case-insensetive commands
- -
 #### Your bot should not:
-- Respond to bots (at all. Even with error message)
-- Request permissions that are not required to execute command (administrator)
-- Allow users to abuse mass mentions (@everyone, @here) unless user has corresponding permission
-- Let people abuse bot powers (kick/ban people whom they won't be able to kick/ban otherwise, access hidden channels)
-- Post nsfw content as a response to sfw request (channels marked as nsfw are an exception)
--
+ - Respond to bots (at all. Even with error message)
+ - Request permissions that are not required to execute command (administrator)
+ - Allow users to abuse mass mentions (@everyone, @here) unless user has corresponding permission
+ - Let people abuse bot powers (kick/ban people whom they won't be able to kick/ban otherwise, access hidden channels)
+ - Post nsfw content as a response to sfw request (channels marked as nsfw are an exception)
